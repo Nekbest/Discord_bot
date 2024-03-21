@@ -5,7 +5,7 @@ from disnake.ext import commands
 intents = disnake.Intents.default()
 intents.members = True
 intents.message_content = True
-TOKEN = "MTEzNTk2MjIyNTE3NDExODUyMQ.GnzWA0.FFfv5TXIysxeozE1IOjvuh0aeGSxAKievN0Ldc"
+TOKEN = ""
 bot = commands.Bot(command_prefix="#", help_command=None, intents=intents)
 
 # Создаём команду
